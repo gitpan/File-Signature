@@ -1,9 +1,9 @@
-# $Id: Signature.pm,v 1.8 2003/08/11 16:53:41 jeremy Exp $
+# $Id: Signature.pm,v 1.9 2003/08/12 19:53:03 jeremy Exp $
 package File::Signature;
 use strict;
 
 use vars qw( $VERSION );
-$VERSION = sprintf "%d.%03d", q$Revision: 1.8 $ =~ /(\d+)\.(\d+)/;
+$VERSION = sprintf "%d.%03d", q$Revision: 1.9 $ =~ /(\d+)\.(\d+)/;
 
 use Digest::MD5;
 
@@ -457,6 +457,9 @@ None.
 =head1 CHANGES
 
  $Log: Signature.pm,v $
+ Revision 1.9  2003/08/12 19:53:03  jeremy
+ Fixups to tests.
+
  Revision 1.8  2003/08/11 16:53:41  jeremy
  Fixed bad POD.
 

@@ -1,3 +1,7 @@
+2003-08-12  Jeremy Madea  <jeremy@neon>
+
+	* Signature.pm: Fixups to tests.
+
 2003-08-11  Jeremy Madea  <jeremy@neon>
 
 	* Signature.pm: Fixed bad POD.
@@ -6,8 +10,6 @@
 
 	* Signature.pm: Bug fixes, doc updates, minor changes.
 
-	* README: Edits.
-
 2003-06-11  Jeremy Madea  <jeremy@neon>
 
 	* Signature.pm:
@@ -15,11 +17,7 @@
 
 2003-06-10  Jeremy Madea  <jeremy@neon>
 
-	* Changes, MANIFEST, README: New file.
-
 	* Signature.pm: POD updates.
-
-	* Makefile.PL: New file.
 
 2003-06-08  Jeremy Madea  <jeremy@neon>
 
