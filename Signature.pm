@@ -1,9 +1,9 @@
-# $Id: Signature.pm,v 1.7 2003/06/13 03:58:32 jeremy Exp $
+# $Id: Signature.pm,v 1.8 2003/08/11 16:53:41 jeremy Exp $
 package File::Signature;
 use strict;
 
 use vars qw( $VERSION );
-$VERSION = sprintf "%d.%03d", q$Revision: 1.7 $ =~ /(\d+)\.(\d+)/;
+$VERSION = sprintf "%d.%03d", q$Revision: 1.8 $ =~ /(\d+)\.(\d+)/;
 
 use Digest::MD5;
 
@@ -409,7 +409,7 @@ choices. Changing this option is NOT RECOMMENDED.
 
 This is a list of all exceptions that thrown by File::Signature:
 
-=over4
+=over 4
 
 =item "argument required"
 
@@ -443,7 +443,7 @@ Thrown by new() when called without an argument.
 
 Thrown by new() when called without a null string as an argument.
 
-=iterm "bad method call"
+=item "bad method call"
 
 Thrown by is_same(), changed(), and old_and_new() when called on an error 
 object. 
@@ -457,6 +457,9 @@ None.
 =head1 CHANGES
 
  $Log: Signature.pm,v $
+ Revision 1.8  2003/08/11 16:53:41  jeremy
+ Fixed bad POD.
+
  Revision 1.7  2003/06/13 03:58:32  jeremy
  Bug fixes, doc updates, minor changes.
 
